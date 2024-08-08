@@ -70,7 +70,7 @@
     }
 
     button:hover {
-        background-color: #e882e89f;
+        background-color: #e882e8;
         color: white;
     }
 
@@ -79,6 +79,9 @@
         grid-row:  4;
         text-align: right;
     }
-
     
+    .fa:hover {
+        color: #e882e8;
+        border: 1px solid #e882e8;
+    }
 }
