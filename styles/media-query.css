@@ -3,7 +3,7 @@
 @media screen and (min-width: 1440px) {
     body {
         background-image: url(../images/bg-desktop.svg);
-        background-size: auto;
+        background-size: cover;
     }
 
     main {
