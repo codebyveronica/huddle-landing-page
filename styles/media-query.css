@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-image: url(../images/bg-desktop.svg);
+        background-size: cover;
+    }
+
+    main {
+        max-width: 2048px;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        column-gap: 50px;
+        
+        padding: 100px;
+    }
+
+    .logo {
+        grid-column: 1 / 2;
+        grid-row: 1;
+        width: 200px;
+        margin-bottom: 65px;
+    }
+
+    .mockups {
+        grid-column: 1;
+        grid-row: 2 / 5;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text {
+        grid-column: 2;
+        grid-row: 2 / 3;
+
+        max-width: 550px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 40px;
+        text-align: left;
+        max-width: 500px;
+        margin-bottom: 20px;
+    }
+
+    p {  
+        font-size: 18px;
+        text-align: left;
+        max-width: 550px;
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    form {
+        text-align: left;
+    }
+
+    button {
+        cursor: pointer;
+        font-size: 18px;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.400);
+
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background-color: #e882e89f;
+        color: white;
+    }
+
+    .icon {
+        grid-column: 2;
+        grid-row:  4;
+        text-align: right;
+    }
+
+    
+}
