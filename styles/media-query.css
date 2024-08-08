@@ -16,7 +16,7 @@
         grid-template-rows: auto;
         column-gap: 50px;
         
-        padding: 60px;
+        padding: 55px;
     }
 
     .logo {
@@ -45,7 +45,7 @@
     h1 {
         font-size: 36px;
         text-align: left;
-        max-width: 500px;
+        max-width: 450px;
         margin-bottom: 20px;
     }
 
